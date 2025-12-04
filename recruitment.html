@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🎬 Recruitment: Seeking Visionaries for Lumifilm Studio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Base Styles (No changes, keep consistent design) */
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.8;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        /* ------------------- 1. Title ------------------- */
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 3px solid #e0ac2b;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.8em;
+            color: #1a1a1a;
+            margin: 0;
+            letter-spacing: 2px;
+        }
+        
+        /* ------------------- 2. Slogan ------------------- */
+        .slogan-section {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 10px 0;
+            background-color: #384259;
+            color: white;
+            border-radius: 5px;
+        }
+
+        .slogan-section p {
+            font-size: 1.3em;
+            font-weight: 500;
+            margin: 10px 0;
+            letter-spacing: 1px;
+        }
+
+        /* ------------------- 3. Introduction (Your Experience) ------------------- */
+        .introduction-section {
+            margin-bottom: 50px;
+        }
+
+        .introduction-section h2 {
+            color: #e0ac2b;
+            border-left: 5px solid #384259;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+
+        .story-block {
+            background-color: #f4f7f6;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px dashed #ccc;
+        }
+
+        /* 🎬 Image Container Styles */
+        .crew-photos {
+            display: flex;
+            justify-content: space-around;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .crew-photo-item {
+            flex: 1 1 200px;
+            max-width: 48%;
+            min-width: 200px;
+            height: 200px;
+            background-color: #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        
+        .crew-photo-item:hover {
+            transform: scale(1.02);
+        }
+
+        /* Ensures the IMG tag fits the container */
+        .crew-photo-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        /* ------------------- 4. Learned Skills ------------------- */
+        .learned-skills {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .learned-skills h2 {
+            color: #1a1a1a;
+            font-size: 1.8em;
+            margin-bottom: 25px;
+        }
+
+        .skill-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill-list .skill-tag {
+            background-color: #384259;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: 500;
+        }
+        
+        /* ------------------- 5. Company Benefits ------------------- */
+        .benefits-section {
+            margin-bottom: 50px;
+        }
+
+        .benefits-section h2 {
+            color: #e0ac2b;
+            border-left: 5px solid #384259;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+        }
+        
+        .benefits-list {
+            list-style-type: none;
+            padding-left: 0;
+            text-align: left;
+        }
+
+        .benefits-list li {
+            background-color: #ffffff;
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+            font-size: 1.05em;
+        }
+
+        .benefits-list li::before {
+            content: "★"; 
+            color: #e0ac2b;
+            font-weight: bold;
+            display: inline-block;
+            width: 1.5em;
+            margin-left: -1.5em;
+        }
+
+        /* ------------------- 6. Contact Info ------------------- */
+        .contact-section {
+            background-color: #1a1a1a;
+            color: white;
+            padding: 30px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .contact-section h2 {
+            color: #e0ac2b;
+            margin-top: 0;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .contact-section p a {
+            color: #e0ac2b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <header>
+            <h1>Lumifilm Studio: Recruiting Passionate Visual Storytellers!</h1>
+            <p>Company Director: Jammy Wamg</p>
+        </header>
+
+        <div class="slogan-section">
+            <p>📽️ More than a Job: A Commitment to the Art of Visual Storytelling!</p>
+        </div>
+
+        <section class="introduction-section">
+            <h2>My Journey in Film: In Front of and Behind the Camera</h2>
+            <div class="story-block">
+                <p>Hello, I'm Jammy Wamg, the Director of Lumifilm Studio. Before recruiting new partners, I want to share my personal history with film production, which will provide insight into how we view 'filmmaking'.</p>
+                
+                <p>Outside of academics, one of my favorite interests has always been participating in film projects. Starting in high school as the female lead in a campus film, that experience was my first time in front of the lens. It was then I realized that 'acting' is far more than just memorizing lines. Later, I contributed to research-related film projects in my university department. Each shoot presented a different challenge, teaching me lessons that classrooms could not.</p>
+
+                <div class="crew-photos">
+                    <div class="crew-photo-item">
+                        <img src="A.jpg" alt="Behind-the-scenes Photo 1" style="width:100%; height:100%; object-fit: cover;">
+                    </div>
+                    
+                    <div class="crew-photo-item">
+                        <img src="B.jpg" alt="Behind-the-scenes Photo 2" style="width:100%; height:100%; object-fit: cover;">
+                    </div>
+                </div>
+
+                <p>Initially, I thought acting was simple—just remember the script and perform. However, once filming began, I discovered that **body language is immensely important** in performance. Some great actors can convey entire emotions and stories with just a glance, a posture, or a small gesture. On set, many smooth, natural-looking scenes are actually the result of repeated adjustments, discussions, and retakes. Every revision, every re-enactment, deepened my understanding that acting is an art requiring observation, comprehension, and dedication.</p>
+            </div>
+        </section>
+
+        <section class="learned-skills">
+            <h2>The "Off-Camera" Skills We Seek</h2>
+            <p>From these valuable experiences, I've realized that outstanding visual storytellers need more than just technical skills; they need these traits:</p>
+            <div class="skill-list">
+                <div class="skill-tag">Patience & Detail Observation</div>
+                <div class="skill-tag">Effective Cross-Departmental Communication</div>
+                <div class="skill-tag">Teamwork & Collaboration</div>
+                <div class="skill-tag">Resilience and Retake Ability</div>
+                <div class="skill-tag">Passion for the Art of Performance</div>
+            </div>
+        </section>
+
+        <section class="benefits-section">
+            <h2>What You'll Gain by Joining Us</h2>
+            <ul class="benefits-list">
+                <li>Receive **full ownership and creative control** over your visual projects—we trust your vision!</li>
+                <li>Collaborate with **industry-leading photographers/producers** to continuously advance your technical scope.</li>
+                <li>**Flexible project scheduling**, focusing on deliverables rather than strict clock-in/out policies.</li>
+                <li>The company provides **strong support** for personal development and related training course fees.</li>
+                <li>A **team environment** focused on patience and passion, minimizing unnecessary internal friction.</li>
+            </ul>
+        </section>
+
+        <section class="contact-section">
+            <h2>Submit Your Portfolio and Start Your Visual Journey</h2>
+            <p>If you possess these qualities and are passionate about visual creation, we sincerely invite you to join us!</p>
+            <p>📧 Please send your resume and portfolio to: <a href="/cdn-cgi/l/email-protection#d19da4bcb8b7b8bdbc8e82a5a4b5b8be91b6bcb0b8bdffb2bebc"><span class="__cf_email__" data-cfemail="eba79e86828d828786b4b89f9e8f8284ab8c868a8287c5888486">[email&#160;protected]</span></a></p>
+            <p>📞 Or call us at: 0912345678</p>
+            <p style="margin-top: 20px;">Lumifilm Studio looks forward to creating stunning visuals with you!</p>
+        </section>
+
+    </div>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>
